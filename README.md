@@ -1,4 +1,4 @@
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://frauddetectionproject-fed97t7tkkm7gyafubnrul.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://frauddetectionproject-fed97t7kkm7gyafubnrul.streamlit.app)
 # Trustworthy & Interpretable AI for Robust Fraud Detection
 Implementation of the Hybrid IAI framework for financial transaction security.
 
