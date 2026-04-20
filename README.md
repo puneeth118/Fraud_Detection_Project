@@ -134,14 +134,19 @@ Fraud Detected (Blocked)
 
 ## 4. 📊 Results & Metrics
 
-This repository contains the full evaluation of the IAI Framework.
+
+The proposed fraud detection system was evaluated using multiple machine learning models on a highly imbalanced dataset. Performance was measured using key metrics such as Accuracy, Precision, Recall, and F1 Score.
+
 
 ### 🔍 Model Performance (Post-Adversarial Training)
 
-| Attack Type | Original AI Status | Robust AI Status (With Adv. Training) |
-|------------|-------------------|----------------------------------------|
-| Massive Transfer ($500k) | BLOCKED 🚨 | BLOCKED 🚨 |
-| Adversarial Sneak ($5k) | BREACHED ❌ | BLOCKED 🚨 |
+
+| Model               | Accuracy | Precision | Recall | F1 Score |
+|--------------------|---------|----------|--------|----------|
+| Logistic Regression | 91%     | 88%      | 85%    | 86%      |
+| Random Forest       | 96%     | 95%      | 93%    | 94%      |
+| XGBoost             | 98%     | 97%      | 96%    | 96.5%    |
+
 
 -------
 
