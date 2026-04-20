@@ -1,340 +1,293 @@
-# 🛡️ Trustworthy & Interpretable AI for Robust Fraud Detection
+<div align="center">
 
-> **Dayananda Sagar University | Department of Computer Science & Engineering (Cyber Security)**
+# Trustworthy & Interpretable AI for Robust Fraud Detection
+### High-fidelity ML-based Financial Security Framework
 
------
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://frauddetectionproject-fed97t7kkm7gyafubnrul.streamlit.app)
 
-The rapid increase in online transactions, online stores, and online financial technologies has turned a significant obstacle in the modern digital system in terms of fraud detection. Conventional rule-based systems may not be effective at identifying complex and dynamic fraudsters, and a number of modern machine learning models, although highly precise, are a black box with little visibility.
+Badges:
+- ![Python](https://img.shields.io/badge/Python-3.9-blue)
+- ![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)
+- ![SHAP](https://img.shields.io/badge/Explainability-SHAP-yellow)
+- ![Research](https://img.shields.io/badge/IEEE-Style-green)
+- ![License](https://img.shields.io/badge/License-MIT-blue)
 
-The proposed project, "Trustworthy and Interpretable AI to Detection Fraud in a Trustworthy, Explainable, and Resilient Way", will address this gap by achieving a fraud detection system that is both reliable, explainable, and able to withstand these real-world challenges.
+*Implementation of the Hybrid IAI framework for financial transaction security, utilizing Explainable Boosting Machines and Adversarial Training.*
 
-The central concept of this project will be to merge potent machine learning algorithms with the use of Explainable AI (XAI) to make sure that all the predictions in the model can be interpreted and relied on by user, analyst and other stakeholders. This is important in sensitive fields such as the financial industry where the decisions made have to be marked audits and demonstrable to justify.
-
-The project also focuses on interpretability, but also has robustness, making sure that even noisy, imbalanced, or adversarial data are effectively handled by the model. The data on fraud are usually very skewed being in a small number as opposed to the number of legitimate transactions. This project will solve this problem by employing approaches like resampling, feature engineering, and anomaly detection differences.
-
-The system will:
-- Correctly designate transactions as fraudulent or legitimate.
-- Explain each prediction with clear explanations with the help of such tools as SHAP or LIME.
-- Manage imbalance in classes.
-- Be stable in different states of data.
-
-By considering trust, interpretability and robustness as one system, this project will be one step closer to creating responsible AI systems that can be deployed in a real-world financial context more confidently and accountably.
-
-On the whole, this project shows that AI may go beyond the accuracy-oriented trend to more open, reliable, and ethical and regulatory-oriented systems.
-
-Keywords: Fraud Detection, Explainable AI (XAI), Trustworthy AI, Robust AI Systems, Logistic Regression, Adversarial Robustness , XGBoost, LIME 
-
----------------------------------
-
-## 1. Problem Statement
-
-Due to the dynamism and swift increase in the volume of digital transactions in the banking and financial technologies sector, fraud has also advanced to be more advanced, dynamic and harder to detect. There is no more room to rely on traditional rule-based systems, which are based on set codes of pattern and do not suit new and emerging patterns of fraud.
-
-Even though new machine learning models are much more accurate in detecting fraud, they present new challenges. A large part of these models functions as black boxes, with little or no understanding of what occurs within these models as decision-making processes. This transparency absence raises serious issues in real life propositions, particularly in financial systems where decision should be explainable, auditable, and be in conformity with the regulations.
-
-Also, datasets used to detect fraud are very uneven, with fraud cases constituting only a minimal percentage of overall data. Such imbalance tends to create biased models meaning that the system will not efficiently detect fraud as it can legitimately. Moreover, the models might not deal with noisy, incomplete or adversarial data, which makes them less predictable in real life cases.
-
-Thus, the central issue taken into account in this project is:
-
-To create and innovate an effective fraud detection system that can attain accuracy as well as interpretability, robustness and trustworthiness, to facilitate understandable and reliable decision making in actual finances.
-
-This is overcoming the following obstacles:
-- Identifying uncommon fraud in datasets of a high degree of imbalance.  
-- Giving sensible and comprehensible explanations of model predictions.  
-- Stability to noisy and adversarial examples.  
-- Establishing trust between users and AI in clear and responsible intelligence systems.  
-
-These issues should be used in combating the deployment of an effective and efficient AI-based fraud detection system.
-
---------------------------------------
-## 2.Problem Solution
-
-In order to overcome the failures of the traditional and black-box fraud detection frameworks, the present project presents a Trustworthy and Interpretable AI-based framework, a set of high-performance machine learning models complemented with the explainability and robustness methodologies.
-
-The solution proposed is developed on three main principles, namely: Accuracy, Interpretability and Robustness
-
-### 1. Data Preprocessing & Handling Imbalance
-- Preprocess and clean transaction data (address issues of missing values, normalization)
-- Appease imbalance of classes through methods like:
-  - TL (Temporal Localization)
-  - Undersampling / Oversampling
-- - Feature engineering to bring out meaningful patterns.
-
-### 2. Model Development
-- Train several machine learning algorithms, including:
-  - boost (interpreters) model
-  -Random Forest (supports non-linearity and feature interactions)
-  XGBoost (high-performance gradient boosting model).
-- Compare models based on a set of evaluation metrics such as precision, recall, F1-score, and ROC-AUC.
-
-### 3. Explainable AI Integration
-- Incorporate Explainable AI methods to make predictions understandable:
-  - SHAP (to explain at the global and local levels)
-  - LIME (interpretability at an instance level)
-- Offer guidance on such points as:
-  - Feature importance
-  - Performance of individual features in predictions
-- Facilitate the stakeholders to appreciate the reasons why a transaction is a flag as fraud.
-
-### 4. Robustness Enhancement
-- Make models more reliable by:
-  - Experimenting on unnoticed and noisy data.
-  - Using cross-validation techniques
-  - Uncovering anomalies and abnormalities.
-- Be consistently performant in the various data situations.
-
-### 5. Evaluation & Validation
-- Evaluate performance using confusion matrix and classification measures.
-- Minimize false negatives (false fraud cases)
-- Assess stability and generalization capability of models.
-
-### 6. Deployment Readiness (Optional Extension)
-- Train the model to be used in the real world:
-  - API integration (Flask/Django)
-  - Detection pipeline-fraud detection pipeline.
-  - Observation and revising of the model with time.
-
-
-
-### 🔍 Summary
-The proposed system does not only identify fraud with a high level of accuracy but it also gives transparent interpretations and good performance therefore seems appropriate to real world financial operations where integrity and accountability are paramount.
+</div>
 
 -----
 
-## 3.Methodology
+## 📌 Overview
 
-The proposed fraud detection system follows a structured pipeline as shown below:
+- **Problem:**  
+Financial fraud is increasing in scale and sophistication, making traditional rule-based systems ineffective against evolving attack patterns.
 
-### 🔄 Workflow
+- **Why traditional methods fail:**
+  - Static rules cannot adapt to new fraud behaviors  
+  - High false positives reduce operational efficiency  
+  - Lack of transparency leads to poor trust in automated systems  
 
-```
-Data Collection
-      ↓
-Data Preprocessing
-      ↓
-Handling Class Imbalance
-      ↓
-Feature Engineering
-      ↓
-Model Development
-      ↓
-Model Evaluation
-      ↓
-Explainable AI (XAI)
-      ↓
-Robustness Testing
-      ↓
-Final Prediction & Insights
-```
+- **Our Solution (VERY clearly):**  
+A **trustworthy and interpretable AI pipeline** that combines feature engineering, anomaly detection, and ensemble learning with explainability techniques to detect fraudulent transactions while maintaining transparency and fairness.
 
-### 📌 Step-by-Step Explanation
+- **Key Models Used:**  
+Random Forest (primary), Logistic Regression, Gradient Boosting, Isolation Forest (for anomaly detection)
 
-**1. Data Collection**
-- Gather transaction dataset (e.g., credit card transactions)
-- Includes both fraudulent and legitimate records
+- **Core Focus Areas:**
+  - Explainability (feature importance, SHAP-based insights)  
+  - Fairness and bias mitigation  
+  - Robustness against adversarial and noisy data  
+  - Confidence-driven decision making  
 
-**2. Data Preprocessing**
-- Handle missing values  
-- Normalize/scale numerical features  
-- Encode categorical variables  
+- **Final Highlights:**
+  - High fraud detection accuracy with reduced false positives  
+  - Transparent predictions with human-understandable explanations  
+  - Reliable performance across diverse and evolving datasets  
 
-**3. Handling Class Imbalance**
-- Apply techniques like:
-  - SMOTE (oversampling minority class)
-  - Undersampling majority class  
-- Ensure balanced dataset for better learning  
-
-**4. Feature Engineering**
-- Select important features  
-- Create new meaningful features  
-- Remove irrelevant or redundant data  
-
-**5. Model Development**
-- Train multiple models:
-  - Logistic Regression  
-  - Random Forest  
-  - XGBoost  
-- Optimize hyperparameters  
-
-**6. Model Evaluation**
-- Evaluate using:
-  - Accuracy  
-  - Precision  
-  - Recall  
-  - F1-Score  
-  - ROC-AUC  
-- Focus on reducing false negatives  
-
-**7. Explainable AI (XAI)**
-- Apply:
-  - SHAP → global & local explanations  
-  - LIME → individual prediction explanations  
-- Understand model decision-making  
-
-**8. Robustness Testing**
-- Test model on:
-  - Noisy data  
-  - Unseen data  
-- Ensure consistent and stable performance  
-
-**9. Final Prediction & Insights**
-- Classify transactions as Fraud / Legitimate  
-- Provide explanation for each prediction  
-- Generate actionable insights  
-
----
-
-## 3.Proposed Architecture
-
-### 🏗️ Architecture Diagram
-
-
-
-
------
-
-## 4.Results
-
-The performance of different machine learning models was evaluated using standard classification metrics such as Accuracy, Precision, Recall, and F1 Score.
-
-### 📊 Performance Comparison
-
-| Model               | Accuracy | Precision | Recall | F1 Score |
-|--------------------|---------|----------|--------|----------|
-| Logistic Regression | 91%     | 88%      | 85%    | 86%      |
-| Random Forest       | 96%     | 95%      | 93%    | 94%      |
-| XGBoost             | 98%     | 97%      | 96%    | 96.5%    |
-
----
-
-### 📉 Accuracy Comparison
-![Accuracy](images/accuracy.png)
-
-### 📉 Precision Comparison
-![Precision](images/precision.png)
-
-### 📉 Recall Comparison
-![Recall](images/recall.png)
-
-### 📉 F1 Score Comparison
-![F1 Score](images/f1.png)
-
-
-### 🔍 Key Insights
-
-- XGBoost achieved the highest overall performance across all metrics  
-- Random Forest provided a strong balance between accuracy and interpretability  
-- Logistic Regression served as a baseline but performed comparatively lower  
-- High recall indicates the model effectively detects fraudulent transactions  
-- The combination of performance and explainability makes the system reliable  
-
-
-### 📌 Conclusion
-
-The results demonstrate that the proposed system is capable of accurately detecting fraud while maintaining interpretability and robustness, making it suitable for real-world financial applications.
+**Keywords:** AI · Fraud Detection · Explainable AI · Trustworthy AI · Robust ML · Cybersecurity
 
 ------
 
-## 5.Code Architecture
+## 📚 Table of Contents
 
+1. [Problem Statement](#1--problem-statement)  
+2. [Proposed Architecture](#2--proposed-architecture)  
+3. [How It Works](#3--how-it-works)  
+4. [Results & Metrics](#4--results--metrics)  
+5. [Code Architecture](#5--code-architecture)  
+6. [Core Modules](#6--core-modules)  
+7. [Setup & Usage](#7--setup--usage)  
+8. [Implementation Results](#8--implementation-results)  
+9. [Limitations](#9--limitations)
+------
 
+## 1. 📖 Problem Statement
 
+> "Accurate fraud detection requires models that can adapt to evolving transaction patterns while remaining interpretable and fair for real-world deployment."
 
+### Challenges:
+- Highly imbalanced datasets (fraud cases are rare)  
+- Dynamic and evolving fraud strategies  
+- Requirement for explainable decisions in financial systems  
+- Sensitivity to adversarial manipulation  
 
+### What is Needed:
+- Robust preprocessing pipeline for transaction data  
+- Hybrid models combining classification and anomaly detection  
+- Explainable predictions for regulatory compliance  
+- Bias mitigation for fair decision-making
 
+------
 
+## 2. 🏗 Proposed Architecture
 
+### System Workflow
 
+| # | Module | Role | Output |
+|---|--------|------|--------|
+| 1 | Data Ingestion | Collect transaction datasets | Raw transaction data |
+| 2 | Preprocessing | Cleaning, normalization, encoding | Processed dataset |
+| 3 | Feature Engineering | Extract behavioral patterns | Enhanced features |
+| 4 | Model Training | Train ML models | Trained models |
+| 5 | Anomaly Detection | Identify unusual patterns | Risk scores |
+| 6 | Explainability | Generate explanations (SHAP/LIME) | Interpretations |
+| 7 | Prediction Interface | Real-time fraud prediction | Fraud label + confidence |
+| 8 | Monitoring | Track model performance | Logs & metrics |
 
+-----
+## 3. ⚙️ How It Works (System Workflow)
 
+The Hybrid IAI (Interpretable AI) framework operates through a continuous, 5-stage pipeline designed to ingest transaction data, classify it using transparent mathematics, and explicitly defend against adversarial evasion.
 
+### 🔍 Decision Logic
 
---------
+```text
+IF incoming_transaction is initiated:
+   1. Extract critical features (oldbalanceOrg, amount, newbalanceDest)
+   2. Pass features through the "Glassbox" EBM Classifier
+   3. EBM calculates the independent risk weight of each feature
+   4. IF combined risk probability > safety threshold:
+        → Trigger SHAP to generate an explainability report
+        → Final Decision: 🚨 FRAUD DETECTED (Transaction Blocked)
+   5. ELSE:
+        → Final Decision: ✅ TRANSACTION APPROVED (Safe)
+```
 
-## 6.Setup and Usage
+### 🔄 Flow Diagram
+```
+Incoming Transaction
+        ↓
+Feature Extraction
+        ↓
+EBM Classifier (Glassbox Model)
+        ↓
+Is Risk Score > Threshold?
+       ↓ ↓
+     YES NO
+       ↓ ↓
+SHAP Explainability Transaction Approved (Safe)
+       ↓
+Fraud Detected (Blocked)
+```
+-------
 
+## 4. 📊 Results & Metrics
 
+This repository contains the full evaluation of the IAI Framework.
 
+### 🔍 Model Performance (Post-Adversarial Training)
 
+| Attack Type | Original AI Status | Robust AI Status (With Adv. Training) |
+|------------|-------------------|----------------------------------------|
+| Massive Transfer ($500k) | BLOCKED 🚨 | BLOCKED 🚨 |
+| Adversarial Sneak ($5k) | BREACHED ❌ | BLOCKED 🚨 |
 
+-------
 
+## 5. 📂 Code Architecture
+```
+Fraud_Detection_Project/
+│
+├── data/ # (Added to .gitignore)
+│ └── paysim dataset.csv
+│
+├── 1_data_preprocessing.py # Feature selection
+├── 2_model_training.py # EBM Model generation
+├── 3_model_explainability.py # SHAP Visualizations
+├── 4_security_testing.py # Adversarial attack simulation
+│
+├── app.py # Streamlit Web Application
+├── requirements.txt # Cloud deployment dependencies
+├── .gitignore # Security and cache exclusion
+├── README.md # Project blueprint
+└── AI_Explanation_Graph.png # SHAP visualization artifact
+```
+-------
 
+## 6. 🧩 Core Modules — Deep Dive
+
+The framework is divided into four distinct backend phases and one frontend deployment module. Each script handles a specific task in the Machine Learning lifecycle.
+
+### `1_data_preprocessing.py` (Phase 1: Reconnaissance)
+* **Objective:** Clean and prepare the raw PaySim dataset for machine learning.
+* **Mechanism:** Financial datasets are highly imbalanced and contain massive amounts of noise. This module loads the data using `pandas`, isolates numerical transaction features, and drops irrelevant strings (like customer names). 
+* **Key Features Targeted:** `oldbalanceOrg`, `step`, `amount`, `newbalanceOrig`, and `newbalanceDest`.
+
+### `2_model_training.py` (Phase 2: The AI Brain)
+* **Objective:** Train the primary classification model.
+* **Mechanism:** Instead of using standard "Black Box" models (like Random Forests or Deep Learning), this script utilizes the `interpret` library to build an **Explainable Boosting Machine (EBM)**. 
+* **Why EBM?** It is a "Glassbox" model mathematically designed to yield high accuracy while remaining completely transparent, fulfilling the IEEE requirement for an Interpretable Artificial Intelligence (IAI) framework.
+
+### `3_model_explainability.py` (Phase 3: Visual Proof)
+* **Objective:** Generate visual evidence of the AI's decision-making logic.
+* **Mechanism:** This module injects the **SHAP (SHapley Additive exPlanations)** library into the trained EBM. It calculates the marginal contribution of each feature to the final prediction.
+* **Output:** It automatically renders and saves `AI_Explanation_Graph.png`, providing security analysts with a clear, color-coded summary plot showing exactly which transaction thresholds trigger a fraud alert.
+
+### `4_security_testing.py` (Phase 4: Adversarial Defense)
+* **Objective:** Test the model's robustness against zero-day evasion tactics.
+* **Mechanism:** The script simulates two distinct cyber-attacks:
+  1. A "Dumb" Hacker ($500k massive transfer).
+  2. A "Smart" Hacker ($5k micro-transfer designed to exploit the Class Imbalance Problem).
+* **The Patch:** When the initial AI fails the second test, the script executes an **Adversarial Training Loop**, injecting the hacker's specific data points back into the training set so the EBM learns to detect and block the hidden pattern.
+
+### `5_app.py` (Phase 5: Cloud Frontend)
+* **Objective:** Provide a live User Interface (UI) for real-time interaction.
+* **Mechanism:** Built using **Streamlit**, this module loads a lightweight, hardened version of the robust EBM model. It generates a web form where users can manually input transaction metrics and instantly receive a "Safe" or "Fraud" prediction directly from the AI.
+
+------
+
+## 7. ⚙️ Setup & Usage
+
+### ⚙️ Prerequisites
+Before running this project locally, ensure your system has the following installed:
+
+- **Python:** Version 3.9 or higher  
+- **Git:** For cloning the repository  
+- **Dataset:** The PaySim dataset is over 500MB and is excluded from this repository via `.gitignore`. You must download it manually.
+
+---
+
+### 📥 Step 1: Installation & Data Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/puneeth118/Fraud_Detection_Project.git
+cd Fraud_Detection_Project
+```
+
+2. Install required libraries:
+```
+pip install -r requirements.txt
+```
+
+3. Dataset Preparation:
+
+    Download the PaySim Dataset from Kaggle
+    Create a folder named data/ inside the project
+    Place the dataset file inside data/
+    Rename it exactly to:
+
+```
+paysim dataset.csv
+```
+
+### 🚀 Step 2: Running the Backend Pipeline
+
+Run the scripts sequentially:
+
+#### Phase 1: Clean data and extract features
+python 1_data_preprocessing.py
+
+#### Phase 2: Train the Explainable Boosting Machine
+python 2_model_training.py
+
+#### Phase 3: Generate the SHAP interpretability graph
+python 3_model_explainability.py
+
+#### Phase 4: Run adversarial security tests
+python 4_security_testing.py
 
 ---------
 
-## 7.Implementation 
+## 8. 📊  Implementation Results
 
+The Hybrid IAI Framework successfully transitioned the fraud detection pipeline from a vulnerable "Black Box" into a secure, transparent "Glassbox."
 
+### 8.1 Visual Interpretability (SHAP Output)
+A core requirement of this project was to provide human-readable proof of the AI's logic. The graph below is the direct output generated by `3_model_explainability.py` during the evaluation phase.
 
+<div align="center">
+<img src="AI_Explanation_Graph.png" width="800" alt="SHAP Explanation Graph"/>
 
+*Figure 1: SHAP Summary Plot detailing feature importance and decision thresholds.*
+</div>
 
+**How to read this output:**
+* **Feature Importance (Y-Axis):** The variables are ranked from top to bottom by how heavily the AI relies on them. `amount` and `oldbalanceOrg` are consistently the strongest indicators of fraud.
+* **Feature Value (Color):** Red dots represent high values (e.g., massive transaction amounts), while blue dots represent low values.
+* **Impact on Model (X-Axis):** Dots pushed to the right (+ SHAP value) mean the AI is aggressively flagging the transaction as *Fraud*. 
+* **Conclusion:** The dense cluster of red dots on the far right of the `amount` row visually proves that the EBM model correctly learned to flag abnormally high transfer amounts as malicious.
 
-
-
+### 8.2 Security Outcome
+The final implementation proved that **Adversarial Training** is a viable defense mechanism for financial AI. While the baseline model exhibited an inherent bias toward "Safe" classifications due to the extreme rarity of fraud in the PaySim dataset, the explicitly patched model recognized and blocked 100% of simulated evasion attempts.
 
 --------
 
-## 🧪 Discussion/Analysis
+## 9. ⚠️ Limitations
 
-The results of the experiments indicate much improved performance of more sophisticated models like XGBoost compared to more conventional models like Logistic Regression in identifying fraudulent transactions. The improved accuracy and recall means that the model is accurate in detecting the fraud and generating few false alarms.
+| Challenge | Impact | Proposed Fix |
+|----------|--------|--------------|
+| Severe Class Imbalance | Standard models ignore rare fraud cases | Implemented targeted Adversarial Training; future work includes SMOTE oversampling |
+| Cloud Dataset Limits | 500MB CSV too large for free cloud hosting | Deployed web app using a hardened, hardcoded evaluation subset |
 
-Nonetheless, XGBoost is more interpretable than simpler models although it offers superior performance. This is overcome through Explainable AI models like SHAP and LIME, which have the advantage of offering insight into model decisions.
+--------
 
-The findings also introduce the essence of managing class imbalance where models that are trained with imbalanced data will prefer to give favor to legitimate transactions.
-
-## ⚠️ Limitations
-
-- The dataset used may not fully represent real-world fraud patterns  
-- Model performance depends on data quality and feature selection  
-- Interpretability techniques like SHAP can be computationally expensive  
-- The system is not yet tested in real-time production environments  
-
-## 🚀 Future Work
-
-- Deploy the model as a real-time fraud detection system using APIs  
-- Integrate deep learning models for improved performance  
-- Enhance robustness against adversarial attacks  
-- Use larger and more diverse datasets  
-- Build a user-friendly dashboard for monitoring fraud predictions
-
--------
-
-## 8.Key Concepts Glossary
-
-## 📚 Key Concepts Glossary
-
-| Term | Definition |
-|------|------------|
-| **Fraud Detection** | The process of identifying suspicious or illegal financial activities within transaction data. |
-| **Machine Learning (ML)** | A subset of artificial intelligence that enables systems to learn patterns from data and make predictions without explicit programming. |
-| **Explainable AI (XAI)** | Techniques that make machine learning models more transparent by explaining how and why predictions are made. |
-| **Trustworthy AI** | AI systems that are reliable, transparent, fair, and aligned with ethical standards, ensuring user confidence in decisions. |
-| **Interpretability** | The ability to understand how a model makes decisions based on input features. |
-| **Robustness** | The ability of a model to maintain performance even when data is noisy, incomplete, or slightly altered. |
-| **Class Imbalance** | A situation where one class (e.g., fraud) is significantly less frequent than another (e.g., legitimate transactions), making learning difficult. |
-| **SMOTE (Synthetic Minority Oversampling Technique)** | A method used to balance datasets by generating synthetic examples of the minority class. |
-| **Logistic Regression** | A simple and interpretable classification algorithm used as a baseline model. |
-| **Random Forest** | An ensemble learning method that builds multiple decision trees and combines their outputs for better accuracy. |
-| **XGBoost** | An advanced gradient boosting algorithm known for high performance and efficiency in classification tasks. |
-| **Precision** | The proportion of correctly identified fraud cases among all predicted fraud cases. |
-| **Recall (Sensitivity)** | The ability of a model to correctly identify actual fraud cases. |
-| **F1 Score** | A metric that balances precision and recall to evaluate model performance. |
-| **ROC-AUC** | A performance metric that measures the model’s ability to distinguish between classes. |
-| **Feature Engineering** | The process of selecting, transforming, and creating features to improve model performance. |
-| **Anomaly Detection** | Techniques used to identify unusual patterns that deviate from normal behavior. |
-| **SHAP (SHapley Additive Explanations)** | A method to explain individual predictions by showing the contribution of each feature. |
-| **LIME (Local Interpretable Model-agnostic Explanations)** | A technique that explains predictions locally by approximating the model around a specific instance. |
-| **Overfitting** | When a model performs well on training data but poorly on unseen data. |
-| **Underfitting** | When a model is too simple to capture patterns in the data. |
-| **Confusion Matrix** | A table used to evaluate classification performance by showing predicted vs actual values. |
-
--------
-
-## 11. Team
+##  10. Team
 
 | Name | USN | Email |
 |---|---|---|
-| Bondili Puneeth Singh | ENG23CY00056 | eng23cy0056@dsu.edu.in |
+| Bondili Puneeth Singh | ENG23CY00055 | eng23cy0055@dsu.edu.in |
 | Chandhe Subhash Samarth | ENG23CY0057 | eng23cy0057@dsu.edu.in |
 | Chatakonda Sai Sreyas | ENG23CY0058 | eng23cy0058@dsu.edu.in |
 | Deepak Choyal | ENG23CY0059 | eng23cy0059@dsu.edu.in |
@@ -342,7 +295,7 @@ The findings also introduce the essence of managing class imbalance where models
 
 ---
 
-##  Mentor
+##   Mentor
 
 **Dr. Prajwalasimha S N**
 
@@ -353,8 +306,10 @@ Email: prajwasimha.sn1@gmail.com
 
 ---
 
-## Implemented In 
+##   Implemented In 
 
 **Dayananda Sagar University**
+
+---
 
 ---
