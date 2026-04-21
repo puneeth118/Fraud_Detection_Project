@@ -322,7 +322,8 @@ Email: prajwasimha.sn1@gmail.com
 
 ##   Implemented In 
 
-**TTEH LAB School of Engineering Dayananda Sagar University
+**TTEH LAB 
+School of Engineering,Dayananda Sagar University
 
 Bangalore -562112, Karnataka, India**
 
