@@ -3,7 +3,7 @@
 # Trustworthy & Interpretable AI for Robust Fraud Detection
 ### High-fidelity ML-based Financial Security Framework
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://frauddetectionproject-fed97t7kkm7gyafubnrul.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://frauddetectionproject-rsnvzp7ygjjdo2jf3jduns.streamlit.app/)
 
 Badges:
 - ![Python](https://img.shields.io/badge/Python-3.9-blue)
