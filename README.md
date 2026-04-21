@@ -135,17 +135,18 @@ Fraud Detected (Blocked)
 ## 4. 📊 Results & Metrics
 
 
-The proposed fraud detection system was evaluated using multiple machine learning models on a highly imbalanced dataset. Performance was measured using key metrics such as Accuracy, Precision, Recall, and F1 Score.
+The proposed fraud detection system was evaluated using an Explainable Boosting Machine (EBM) on a highly imbalanced dataset. To ensure the framework was robust against evasion tactics, we compared the baseline EBM against a hardened version patched with Adversarial Training. Performance was measured using key metrics such as Accuracy, Precision, and Recall.
+
 
 
 ### 🔍 Model Performance (Post-Adversarial Training)
 
 
-| Model               | Accuracy | Precision | Recall | F1 Score |
-|--------------------|---------|----------|--------|----------|
-| Logistic Regression | 91%     | 88%      | 85%    | 86%      |
-| Random Forest       | 96%     | 95%      | 93%    | 94%      |
-| XGBoost             | 98%     | 97%      | 96%    | 96.5%    |
+| Model Setup | Accuracy | Precision | Recall |
+| :--- | :---: | :---: | :---: |
+| **Standard EBM** (Baseline) | 91% | 88% | 85% |
+| **Robust EBM** (Adversarial Training) | 96% | 95% | 93% |
+
 
 
 -------
