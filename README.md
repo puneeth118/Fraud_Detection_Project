@@ -322,7 +322,7 @@ Email: prajwasimha.sn1@gmail.com
 
 ##   Implemented In 
 
-<img src="https://github.com/user-attachments/assets/e76effb8-3419-44d-9357-6364e77541ac" width="200"/>
+![<img width="308" height="276" alt="Screenshot 2026-04-22 at 8 52 44 AM" src="https://github.com/user-attachments/assets/84e0ea0b-dd72-49d2-b5fd-4a95e458cd20" />
 TTEH LAB 
 School of Engineering,Dayananda Sagar University
 
