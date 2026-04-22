@@ -327,7 +327,7 @@ TTEH LAB
 
 School of Engineering, Dayananda Sagar University
 
-Bangalore -562112, Karnataka, India**
+Bangalore -562112, Karnataka, India
 
 ---
 
