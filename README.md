@@ -322,8 +322,8 @@ Email: prajwasimha.sn1@gmail.com
 
 ##   Implemented In 
 
-<img width="640" height="324" alt="image" src="https://github.com/user-attachments/assets/c2c36872-d651-4105-a4c8-2f581d4cc099" />
- TTEH LAB 
+<img width="308" height="276" alt="Screenshot 2026-04-22 at 8 52 44 AM" src="https://github.com/user-attachments/assets/e76effb8-3419-4d4d-9357-6364e77541ac" />
+TTEH LAB 
 School of Engineering,Dayananda Sagar University
 
 Bangalore -562112, Karnataka, India**
